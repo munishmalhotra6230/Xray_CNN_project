@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-from model import Convolutional_NN,load_model,pipeline
+from model import load_model,pipeline
 @ st.cache_resource
 def get_model():
     return load_model()
